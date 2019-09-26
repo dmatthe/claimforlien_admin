@@ -1,0 +1,5 @@
+#dashboard_pane #maincontent ul.list-group, #dashboard_pane #maincontent ol.list-group {
+  padding: 0px;
+  margin: 0px;
+  overflow: inherit;
+}

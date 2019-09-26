@@ -1,0 +1,47 @@
+.sitenavigation .ui-state-focus, .sitenavigation .ui-widget-content, .sitenavigation .ui-state-focus, .sitenavigation .ui-widget-header, .sitenavigation .ui-state-focus {
+			background: #fff;
+			color: #000;
+			cursor: pointer;
+			width:196px;
+}
+
+.sitenavigation .ui-corner-all {
+			color: #000;
+			position:relative;
+			width:100%;
+}
+.sitenavigation .ui-active-menuitem, .sitenavigation .ui-state-hover, .sitenavigation .ui-state-highlight{
+			height: 38px;
+			background:#abc;
+			cursor:pointer;
+			width:100%;
+}
+
+.sitenavigation .ui-menu-item{
+		    position:relative;
+			outline:none;
+			width:100%;
+            padding-left: 13px !important;			
+}
+ 
+.sitenavigation .ui-autocomplete { position: absolute; cursor: default;z-index:30000 !important;} 
+.sitenavigation .ui-helper-hidden-accessible { display:none; }
+		
+.sitenavigation .ui-state-focus{
+ position:relative;
+ background:#bcd;
+ outline:none;
+ width:100%;
+ border-color: #0000FF;
+ box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 0, 0, 0.5);
+ border: 1px solid #454545;
+}
+ 
+.sitenavigation ul
+{
+list-style-type: none;
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+.sitenavigation form.form-inline[role=search] legend {padding: 0px; margin:0px;border-bottom:0px;font-size: 1em;}
