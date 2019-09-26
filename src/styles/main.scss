@@ -1,0 +1,13 @@
+//The main scss file for claimforlien_admin.
+
+//IMPORTANT:
+// Any resources from this project should be referenced using SRC_PATH preprocessor var
+// Ex: background-image: url(/* @echo SRC_PATH*//img/sample.jpg)
+
+#dashboard_pane {
+    #maincontent ul.list-group, #maincontent ol.list-group {
+        padding: 0px;
+        margin: 0px;
+        overflow: inherit;
+    }
+}

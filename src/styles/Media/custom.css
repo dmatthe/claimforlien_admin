@@ -1,0 +1,79 @@
+/**CUSTOM**/
+
+#maincontent .app_nav .btn{margin-right:10px;}
+#maincontent .custom-search-input{margin-top:6px;}
+
+#admininterface .navbar-brand{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 320px;
+}
+
+    #maincontent ul.list-group, #maincontent ol.list-group {
+        padding: 0px;
+        margin: 0px;
+        overflow: inherit;
+    }
+
+
+    .fxinput{
+        height: auto;
+        min-height: 35px;
+        border: 0;
+      }
+
+
+      .dataTable td{
+          white-space: normal;
+          overflow: hidden;
+          max-width: 20ch;
+          text-overflow: ellipsis;
+      }
+
+
+      #claim_typeElement {
+        margin-bottom: 0;
+      }
+      
+      #claim_typeElement fieldset.form-control {
+        border: 0;
+      }
+
+
+      #maincontent .vertical, #maincontent label.vertical {
+        display: grid;
+        grid-template-columns: 1fr 99fr;
+    }
+
+
+      .cot-form .vertical.entryField.checkboxLabel{
+        font-size: 1.2em;
+        margin-bottom: 1em;
+        display: flex;
+  
+      }
+      .cot-form .vertical.entryField.checkboxLabel > span{
+        padding-left: 1em;
+      }
+      form.cot-form input[type="checkbox"] {
+        width: inherit; 
+        min-width: 20px;
+        box-shadow: none;
+        display: inline-block;
+        height: 15px;
+      }
+
+      .dt-buttons.dt-buttons.dt-buttons.dt-buttons{
+          float: right;
+          margin: 1em;
+      }
+
+      .dataTables_paginate.paging_simple_numbers li, .dataTables_info{
+        margin: 1em;
+      }
+
+      #maincontent #admininterface h2.panel-heading{
+          color: #000;
+          font-size: 1.5em;
+      }
